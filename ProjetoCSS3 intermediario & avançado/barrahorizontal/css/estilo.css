@@ -1,0 +1,185 @@
+/****************************************
+Seletor universal 
+* {
+	border: solid red; 
+}*/
+
+
+/****************************************
+Seletor de texto 
+h1 {
+	color: green;
+}*/
+
+/****************************************
+Seletor de classe 
+.verde {
+	color: green;
+}
+
+p.verde {
+	color: green;
+}*/
+
+/****************************************
+Seletor de ID 
+#cabecalho {
+	border: 1px solid blue;
+}*/
+
+/****************************************
+Seletor de filho 
+li>a {
+	color: red;
+	text-decoration: none;
+}*/
+
+/****************************************
+Seletor de descendente 
+div a {
+	color: green;
+}*/
+
+/****************************************
+Seletor de irmão adjacente 
+ h1+p {
+ 	color: red;
+ }*/
+
+ /****************************************
+Seletor de irmão geral 
+h1~p {
+	color: pink;
+}*/
+
+
+
+
+ /****************************************
+Herança e especificidade 
+#pagina p {
+	color: red !important;
+}
+
+#pagina p {
+	color: blue;
+}*/
+
+/* se um seletor for mais específico que outro
+a regra mais específica sera aplicada
+(tera a precedencia sobre as regras mais gerais)
+*/ 
+/*
+* {
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+h2.verde {
+	color: green;
+}
+
+h2#amarelo {
+	color: yellow;
+}*/
+
+
+
+
+
+
+
+/****************************************
+Barra de navegação vertical */
+/*
+ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+}*/
+/*
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	/*border: 1px solid red;
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left bottom; 
+}
+
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;  
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	background-position: right bottom;
+	background-color: #f99200;  
+	color: #fff;
+}*/
+
+
+/****************************************
+Barra de navegação horizontal */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+ul a:hover {
+	color: #085662;
+	background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color: #085662;
+	background: #44cade;
+}
+
