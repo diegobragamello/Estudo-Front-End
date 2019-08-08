@@ -1,4 +1,67 @@
+/***********************************************
+Animações */
+@keyframes animacao-caixa {
+	from {/*Estado inicial*/
+		background: red;
+		border-radius: 0px;	
+		
+		left: 0;
+	}
+	to {/*Estado final*/
+		background: yellow;
+		border-radius: 300px;
+		
+		left: 600px;	
+	}
+}
+
 #caixa {
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	/*animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;*/
+
+	-webkit-animation: animacao-caixa 3s 1s 1000 alternate;
+	-moz-animation: animacao-caixa 3s 1s 1000 alternate;
+	-o-animation: animacao-caixa 3s 1s 1000 alternate;
+	animation: animacao-caixa 3s 1s 1000 alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#caixa {
 	width: 300px;
 	height: 300px;
 	padding: 8px;
@@ -15,7 +78,7 @@
 
 
 
-/*#caixa {
+#caixa {
 	width: 300px;
 	height: 300px;
 	background: url("../imagens/camera.png");
